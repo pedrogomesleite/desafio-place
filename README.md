@@ -49,7 +49,7 @@
   - **404 Not Found**
     ```json
     {
-      "erro": "Contrato não encontrado"
+      "erro": "Contrato not found"
     }
     ```
 
@@ -78,12 +78,6 @@
       "veiculos": [...]
     }
     ```
-  - **400 Bad Request**
-    ```json
-    {
-      "erro": "Parâmetros inválidos"
-    }
-    ```
 
 #### 4. Excluir um Contrato
 - **URL:** `/contratos/{id}`
@@ -96,7 +90,7 @@
   - **404 Not Found**
     ```json
     {
-      "erro": "Contrato não encontrado"
+      "erro": "Contrato not found"
     }
     ```
 
@@ -120,7 +114,7 @@
   - **404 Not Found**
     ```json
     {
-      "erro": "Contrato não encontrado"
+      "erro": "Contrato not found"
     }
     ```
 
@@ -145,7 +139,7 @@
   - **404 Not Found**
     ```json
     {
-      "erro": "Contrato não encontrado"
+      "erro": "Contrato not found"
     }
     ```
 
@@ -197,7 +191,7 @@
   - **404 Not Found**
     ```json
     {
-      "erro": "Veículo não encontrado"
+      "erro": "Veículo not found"
     }
     ```
 
@@ -225,13 +219,6 @@
       "numChassi": 987654,
       "placa": "ABC-1234"
     }
-    ```
-  - **400 Bad Request**
-    ```json
-    {
-      "erro": "Parâmetros inválidos"
-    }
-    ```
 
 #### 4. Excluir um Veículo
 - **URL:** `/veiculos/{id}`
@@ -244,7 +231,7 @@
   - **404 Not Found**
     ```json
     {
-      "erro": "Veículo não encontrado"
+      "erro": "Veículo not found"
     }
     ```
 
@@ -268,14 +255,7 @@
   - **404 Not Found**
     ```json
     {
-      "erro": "Veículo não encontrado"
+      "erro": "Veículo not found"
     }
     ```
 """
-
-# Escrever o conteúdo no arquivo docs.md
-file_path = "/mnt/data/docs.md"
-with open(file_path, "w") as file:
-    file.write(doc_content)
-
-file_path
